@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'Agency FB Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Agency FB Bold'), url('AGENCYB.woff') format('woff');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #EFEFEF;
+}
+
+.navbar-brand {
+
+    font-family: Agency FB Bold;
+    font-size: 5.5vh;
+    color: rgb(46, 46, 46);
+    letter-spacing: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+
+}
+
+.navbar-nav {
+    margin-left: 5vh;
+}
+
+.navbar-nav {
+    margin-right: 5vh;
+}
+
+.nav-item {
+    margin-right: 5vh;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: light;
+}
+
+.lovexcosmic {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    color: #BF70A0;
+    opacity: 80%;
+    font-size: 15vh;
+    position: relative;
+    top: 30vh;
+    transform: translateY(-50%);
+}
+
+header {
+    background-image: url('../Pictures/BANNER2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* background-color: blueviolet; */
+    height: 90vh;
+    width: 100%;
+
+}
+
+
+.colab {
+
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+
+
+}
+
+.shoe {
+    width: 700px;
+    height: 400px;
+    background-image: url(../Pictures/mockupairmax.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+
+.colab-info {
+    width: 650px;
+    height: 400px;
+    /* background-color: burlywood; */
+    margin: 20px;
+    box-sizing: border-box;
+
+}
+
+.text {
+    /* background-color: lavender; */
+    margin: 0vh 5vh 5vh 5vh;
+}
+
+
+.lovexnike {
+    font-family: Work Sans;
+    font-weight: bold;
+    font-size: 10vh;
+}
+
+.parrafo {
+    margin-top: 5vh;
+    font-family: Work Sans;
+    font-weight: regular;
+    font-size: 2.8vh;
+}
+
+
+footer {
+    background-image: url(../Pictures/Flowers2.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+.container-footer {
+    width: 100%;
+    /* background-color: lightblue; */
+    position: relative;
+}
+
+.social {
+    /* background-color: lavender; */
+    height: 10vh;
+    text-align: center;
+    position: relative;
+}
+
+.copy {
+    /* background-color: rgb(54, 173, 154); */
+    height: 10vh;
+    text-align: center;
+    position: relative;
+}
+
+.love-footer {
+    /* background-color: rgb(131, 131, 248); */
+    height: 10vh;
+    text-align: center;
+    position: relative;
+}
+
+.container-social {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    /* background-color: #8ebf42; */
+    /* top: 50%;
+    transform: translateY(-50%); */
+}
+
+.copyright {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    /* background-color: #8ebf42; */
+    /* top: 50%;
+    transform: translateY(-50%); */
+}
+
+.amor {
+    font-family: Agency FB Bold;
+    font-size: 5.5vh;
+    color: rgb(46, 46, 46);
+    letter-spacing: 10px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    /* background-color: #8ebf42; */
+    /* top: 50%;
+    transform: translateY(-50%); */
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    header {
+        background-size: cover;
+    }
+}

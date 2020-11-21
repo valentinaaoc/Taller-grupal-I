@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Agency FB Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Agency FB Bold'), url('AGENCYB.woff') format('woff');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700&display=swap');
+
+.navbar {
+    background-color: #EFEFEF;
+}
+
+.navbar-brand {
+
+    font-family: Agency FB Bold;
+    font-size: 5.5vh;
+    color: rgb(46, 46, 46);
+    letter-spacing: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+
+}
+
+.navbar-nav {
+    margin-left: 5vh;
+}
+
+.navbar-nav {
+    margin-right: 5vh;
+}
+
+.nav-item {
+    margin-right: 5vh;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: light;
+}
+
+/*MAIN*/
+
+.container {
+    max-width: 960px;
+  }
+  
+  .lh-condensed { line-height: 1.25; }
+
+  
+.checkout-title{
+    font-family: 'Work Sans', sans-serif;
+    font-weight:  bold;
+}
+
+.badge{
+    font-family: 'Work Sans', sans-serif;
+    font-weight:  regular;
+}
+
+.my-0{
+    font-family: 'Work Sans', sans-serif;
+    font-weight:  bold;
+}
+
+.text-muted{
+    font-family: 'Work Sans', sans-serif;
+    font-weight:  regular;
+}
+
+.code-number{
+    font-family: 'Work Sans', sans-serif;
+    font-weight:  regular;
+}
+
+.text-success{
+    font-family: 'Work Sans', sans-serif;
+    font-weight:  regular;
+}
+
+.Total{
+    font-family: 'Work Sans', sans-serif;
+    font-weight:  regular; 
+}
+
+.Total-price{
+    font-family: 'Work Sans', sans-serif;
+    font-weight:  bold;
+}
+
+.form-control{
+    font-family: 'Work Sans', sans-serif;
+    font-weight:  regular;
+}
+
+.btn{
+    font-family: 'Work Sans', sans-serif;
+    font-weight:  regular;
+}
+
+.mb-3{
+    font-family: 'Work Sans', sans-serif;
+    font-weight:  bold;
+}
+
+.invalid-feedback{
+    font-family: 'Work Sans', sans-serif;
+    font-weight:  regular;
+}
+
+.custom-control-label{
+    font-family: 'Work Sans', sans-serif;
+    font-weight:  regular;
+}
+
+
+
+/*FOOTER*/
+
+.container-footer {
+    width: 100%;
+    /* background-color: lightblue; */
+    position: relative;
+}
+
+.social {
+    /* background-color: lavender; */
+    height: 30vh;
+    text-align: center;
+    position: relative;
+}
+
+.copy {
+    /* background-color: rgb(54, 173, 154); */
+    height: 30vh;
+    text-align: center;
+    position: relative;
+}
+
+.love-footer {
+    /* background-color: rgb(131, 131, 248); */
+    height: 30vh;
+    text-align: center;
+    position: relative;
+}
+
+.container-social {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    /* background-color: #8ebf42; */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.copyright {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    /* background-color: #8ebf42; */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.amor {
+    font-family: Agency FB Bold;
+    font-size: 5.5vh;
+    color: rgb(46, 46, 46);
+    letter-spacing: 10px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    /* background-color: #8ebf42; */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
